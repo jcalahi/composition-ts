@@ -1,0 +1,27 @@
+{
+  "name": "composition-ts",
+  "version": "1.0.0",
+  "description": "Composition example using TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "start:build": "tsc -w",
+    "start:run": "nodemon build/index.js",
+    "start": "concurrently npm:start:*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jcalahi/composition-ts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jcalahi/composition-ts/issues"
+  },
+  "homepage": "https://github.com/jcalahi/composition-ts#readme",
+  "dependencies": {
+    "@types/node": "^12.12.14",
+    "concurrently": "^5.0.0",
+    "nodemon": "^2.0.1"
+  }
+}
